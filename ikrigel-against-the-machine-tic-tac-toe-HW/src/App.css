@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 5rem;
+}
+
+.Board {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 64rem;
+  height: 100%;
+}
+
+.Tile {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  padding: 0.75rem;
+  margin: 0.1rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 0.5rem;
+  background-color: darkblue;
+  color: greenyellow;
+}
+
+.Tile:hover {
+  background-color: blue;
+  border-radius: 0.75rem;
+}
+
+.Tile:active {
+  background-color: blue;
+  border-radius: 1rem;
+}
+.App > h1{
+  color: purple;
+}
+.App > h6{
+  color:red;
+}
